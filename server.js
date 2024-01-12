@@ -6,7 +6,7 @@ const port = 3000;
 const filterDuplicateImages = require('./filterDuplicateImages')
 
 // Thay đổi giá trị này thành một tập hợp lưu trữ thực tế (ví dụ: cơ sở dữ liệu) của các API key hợp lệ
-const validApiKeys = new Set(['12345', 'abcd1234']);
+const validApiKeys = new Set(['123456', 'abcd1234']);
 
 
 
