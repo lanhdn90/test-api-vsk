@@ -24,7 +24,7 @@ const apiKeyMiddleware = (req, res, next) => {
 
 app.use(apiKeyMiddleware);
 app.use(bodyParser.json());
-app.use('/filter',filterDuplicateImages)
+app.use('/api/detect',filterDuplicateImages)
 // Sử dụng middleware cho mọi route cần kiểm tra API key
 // Các route khác của ứng dụng
 app.get('/auth/current-user', (req, res) => {
